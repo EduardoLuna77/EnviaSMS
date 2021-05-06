@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#EEFBFC">
+
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:background="@mipmap/mensaje"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Envia SMS"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#1421E6"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu número de teléfono"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#A40E69"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="El formato es: XXXXXXXXXX"
+        android:textSize="20dp"
+        android:inputType="phone"
+        android:id="@+id/editTextTelefono"
+        android:textAlignment="center"
+        android:textColor="#0D801D"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escribe tu mensaje"
+        android:textSize="20dp"
+        android:textAlignment="center"
+        android:textColor="#A40E69"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:hint="Ingresa aquí tu mensaje"
+        android:id="@+id/editTextMensaje"
+        android:textAlignment="center"
+        android:textColor="#0D801D"
+        android:fontFamily="casual"
+        android:textStyle="bold"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textSize="20dp"
+        android:id="@+id/buttonEnviar"
+        android:layout_gravity="center"
+        android:textColor="#FFCC54"/>
+
+
+</LinearLayout>
